@@ -3,7 +3,7 @@
 (synth-fun f ((z String)(z1 String)) String
     ((Start Int) (ntString String) (ntInt Int))
     ((Start Int (ntInt))
-    (ntString String (z z1 " "))
+    (ntString String (z z1 ""))
     (ntInt Int (0 1 2 (+ ntInt ntInt) (str.indexof ntString ntString ntInt)))))
 
 (declare-var z String)
