@@ -11,4 +11,3 @@
 (constraint (= (f "greatapplez" "p") "greatapgreatapgreatapgreatapgreatapgreatap"))
 (constraint (= (f "grow" "w") "growgrowgrow"))
 (check-synth)
-
